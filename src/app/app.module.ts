@@ -5,13 +5,14 @@ import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
 
-import { ProductsComponent }   from './products.component'
+import { ProductsComponent }   from './products.component';
+import { ProductComponent } from './product.component'; 
 
 import { RatingComponent } from './rating.component'; 
 
 @NgModule({
   declarations: [
-    AppComponent, ProductsComponent, RatingComponent
+    AppComponent, ProductsComponent, RatingComponent,  ProductComponent
   ],
   imports: [
     BrowserModule, FormsModule,HttpModule
